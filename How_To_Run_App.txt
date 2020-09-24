@@ -1,0 +1,4 @@
+On command line: npm init
+: npm install express --save
+: node app
+You should see Listening on port 3003...

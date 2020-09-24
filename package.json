@@ -1,0 +1,47 @@
+{
+  "name": "music-stream",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "6.2.2"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "bcryptjs": "^2.4.3",
+    "bson": "^4.0.0",
+    "db.js": "^0.15.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.6",
+    "music-metadata": "^3.1.2",
+    "node.js": "0.0.0",
+    "os": "^0.1.1",
+    "prompt": "^1.0.0",
+    "public-ip": "^2.4.0",
+    "readdirp": "^2.2.1",
+    "require_optional": "^1.0.1",
+    "resolve-from": "^4.0.0",
+    "semver": "^5.6.0",
+    "socket.io": "^2.1.1",
+    "socket.io-stream": "^0.9.1",
+    "validator": "^10.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node Login_Server/server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/oldmangroup/Senior_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/oldmangroup/Senior_Project/issues"
+  },
+  "homepage": "https://gitlab.com/oldmangroup/Senior_Project#readme",
+  "description": ""
+}
