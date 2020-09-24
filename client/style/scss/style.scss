@@ -1,0 +1,165 @@
+$background: #66a0ff;
+$foreground: #2266d6;
+$button: #022f7a;
+
+body {
+    background-color: $foreground;
+    border: none;
+	margin: 0;
+	font-family: Arial;
+}
+
+#foreground {
+
+    padding-top: 0.1%;
+
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#head {
+    padding-top: 55px;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: $background;
+}
+
+#title {
+
+    float: left;
+    float: top;
+    border: 2px;
+    border-style: dashed;
+    border-color: aqua;
+	padding: 15px;
+	font-family:  'Bungee Inline', cursive;
+	color: white;
+}
+
+#user {
+    float: right;
+    border: 2px;
+    border-style: dashed;
+    border-color: aqua;
+    padding: 15px;
+    position: relative;
+    right: 10px;
+    border-radius: 12px;
+	font-family:  'Bungee Inline', cursive;
+	color: white;
+}
+
+#logout {
+    float: right;
+    border: 2px;
+    border-style: dashed;
+    border-color: aqua;
+    padding: 15px;
+    border-radius: 12px;
+	font-family:  'Bungee Inline', cursive;
+	color: white;
+}
+
+#logo {
+    float: center;
+    border: 2px;
+    border-style: dashed;
+    border-color: aqua;
+    text-align: center;
+    font-size: 600%;
+    margin: 1.858736059%;
+    position: relative;
+    min-height: 3em;
+    width: 50%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+	padding-top: 1px;
+	font-family:  'Bungee Inline', cursive;
+	color: white;
+}
+
+#login {
+    float: center;
+    border: 2px;
+    border-style: dashed;
+    border-color: aqua;
+    position: relative;
+    min-height: 3.25em;
+    width: 20%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 150%;
+    padding-top: 1px;
+    border-radius: 20px;
+}
+
+#holder {
+    border: 8px;
+}
+
+#player {
+    float: center;
+    border: 2px;
+    border-style: dashed;
+    border-color: aqua;
+    position: relative;
+    min-height: 3em;
+    width: 40%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#list {
+    top: 10px;
+    text-align: center;
+    float: center;
+    border: 2px;
+    border-style: dashed;
+    border-color: aqua;
+    position: relative;
+    min-height: 3em;
+    width: 40%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#button-box {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button {
+	text-align: center;
+    border: 2px;
+    border-style: dashed;
+    border-color: aqua;
+    position: relative;
+    min-height: 3.25em;
+    width: 100%;
+    margin-right: auto;
+	margin-left: auto;
+	padding-top: 10%;
+}
+
+.name {
+    text-align: left;
+}
+
+.artist {
+    float: left;
+}
+
+.album {
+    float: right;
+}

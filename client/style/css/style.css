@@ -1,0 +1,152 @@
+body {  background: rgb(11,0,208);
+  background: radial-gradient(circle, rgba(11,0,208,1) 0%, rgba(0,0,195,1) 79%, rgba(0,17,153,1) 100%);
+    border: none;
+    margin: 0;
+    font-family: Arial;
+}
+
+@font-face {
+  font-family: 'Nightmare';
+  src: url("../fonts/chequered-ink_nightmare-codehack/Nightmare Codehack.otf") /* EOT file for IE */
+}
+
+@font-face {
+  font-family: 'Progresterone';
+  src: url("../fonts/chequered-ink_progesterone/Progesterone.otf") /* EOT file for IE */
+}
+
+#logo {
+    text-align: center;
+    border: 2px;
+    background-color: rgb(0, 0, 131);
+    border-style: solid;
+    border-color: aqua;
+    text-shadow: black 5px 5px;
+    font-size: 150px;
+    margin: 0.6%;
+    position: sticky;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Nightmare';
+    color: white;
+    line-height: 0px;
+}
+
+#holder {
+    text-align: center;
+}
+
+#player {
+    float: center;
+    border: 2px;
+    /* border-style: solid;
+  border-color: aqua;*/
+    position: relative;
+    min-height: 3em;
+    width: 40%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#list {
+    top: 10px;
+    text-align: center;
+    float: center;
+    /*border: 2px;
+  border-style: solid;
+  border-color: aqua;*/
+    position: relative;
+    min-height: 3em;
+    width: 40%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#button-box {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button {
+    text-align: center;
+    border: 2px;
+    border-style: solid;
+    border-color: aqua;
+    position: relative;
+    min-height: 3.25em;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10%;
+}
+
+.name {
+    text-align: left;
+}
+
+.artist {
+    float: left;
+}
+
+.album {
+    float: right;
+}
+
+#info {
+  float: center;
+  border: 2px;
+  background-color: rgb(0, 0, 131);
+  border-style: solid;
+  border-color: aqua;
+  text-align: center;
+  text-shadow: black 5px 5px;
+  position: relative;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Progresterone';
+  color: white;
+}
+
+#songname {
+  font-size: 28px;
+  margin: 10px;
+}
+
+#songartist {
+  font-size: 20px;
+  color: #c2c7ce;
+  margin: 10px;
+}
+
+#songalbum {
+  font-size: 20px;
+  color: #c2c7ce;
+  margin: 10px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: blue; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: rgb(0, 0, 131); /* Add a dark-grey background on hover */
+}

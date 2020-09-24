@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+	<title> Express Music Server </title>
+	<style>
+		body {
+		
+			padding: 30px;
+			background: url('./bg-musical.png');
+			text-align: center;
+		}
+		.contents{
+			background: #fff;
+			padding: 20px;
+			margin: auto;
+			opacity: 0.7;
+			text-align: center;
+		}
+		.contents button{
+			width: 100px;
+			opacity: 0.9;
+			background: #000;
+		}
+		h1 {
+			color: #333333;
+			font-size: 60px;
+		}
+		h2 {
+			color: #2e2e2e;
+			font-size: 28px;
+		}
+		a {
+			color: #2f2f2f;
+			font-size: 18px
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container contents">
+	<h1>  Muzer Streaming </h1>
+	<hr>
+	<h2> Streaming your music when you want </h2>
+	<hr>
+	<a href="https://rishabh.io">  Rishabh IO	</a> 
+	
+	
+		<div class="row">
+			<div class="col-md-4">
+				<img class="img img-responsive" src="song.png"/>
+				<h2> Caught Up In You.m4a </h2>
+				<!--Need to fetch IP address and file name and insert here
+				need to replace local host with private IP-->
+				<a href="http://localhost:3003/music?id=05 Caught Up In You.m4a" target="_blank"> <button class="btn btn-success"> Play </button>	</a> <hr>
+				<a href="http://localhost:3003/download?id=Caught Up In You.m4a"  target="_blank"> <button class="btn btn-success"> Download </button> </a>
+			</div>
+			<div class="col-md-4">
+			<img class="img img-responsive" src="song.png"/>
+				<h2> Back Where You Belong.m4a </h2>
+				<a href="http://localhost:3003/music?id=09 Back Where You Belong.m4a" target="_blank"> <button class="btn btn-success"> Play </button>	</a> <hr>
+				<a href="http://localhost:3003/download?id=09 Back Where You Belong.m4a"  target="_blank"> <button class="btn btn-success"> Download </button> </a>
+			</div>
+			<div class="col-md-4">
+			<img class="img img-responsive" src="song.png"/>
+				<h2> Twentieth Century Fox.m4a </h2>
+				<a href="http://localhost:3003/music?id=13 Twentieth Century Fox.m4a" target="_blank"> <button class="btn btn-success"> Play </button>	</a> <hr>
+				<a href="http://localhost:3003/download?id=13 Twentieth Century Fox.m4a"  target="_blank"> <button class="btn btn-success"> Download </button> </a>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
+
+

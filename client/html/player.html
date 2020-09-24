@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Muzer</title>
+	<link rel="stylesheet" href="../style/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+	<script type="text/javascript" src="../js/player.js"></script>
+</head>
+
+<body>
+	<div id="holder">
+		<div id="logo">
+			<p>MUZER</p>
+		</div>
+		<div id="player">
+			<div id="info">
+				<marquee id="songname" behavior="scroll" direction="left" scrollamount="5"></marquee>
+				<marquee id="songartist" behavior="scroll" direction="left" scrollamount="5"></marquee>
+				<marquee id="songalbum" behavior="scroll" direction="left" scrollamount="5"></marquee>
+			</div>
+			<audio controls autoplay id="audioPlayer">
+				<source id="source" src="" type="audio/mp4">
+				Your browser does not support the audio element.
+			</audio>
+		</div>
+		<div id="list">
+			<input id="search" type="text" placeholder="Search.." />
+			<select id="select">
+				<option value="all">All</option>
+				<option value="song">Song</option>
+				<option value="artist">Artist</option>
+				<option value="album">Album</option>
+			</select>
+			<button onclick="callServer(document.getElementById('select').value, document.getElementById('search').value)">
+				Search
+			</button>
+			<div id="button-box"></div>
+		</div>
+	</div>
+	
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+</body>

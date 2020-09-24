@@ -1,0 +1,16 @@
+{
+  "name": "muzer",
+  "version": "0.0.1",
+  "description": "a music streaming client",
+  "main": "index.html",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w style/scss/ -o style/css/"
+  },
+  "author": "",
+  "license": "ISC"
+}
